@@ -191,5 +191,3 @@ contains successful **Market** and **Limit order traces**.
 
 ---
 
-
->>>>>>> cd12f9f131cb9c8e6d6cabecf40086106ccd18a8
