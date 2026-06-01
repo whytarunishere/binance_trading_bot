@@ -118,7 +118,7 @@ def run(argv: Sequence[str] | None = None) -> int:
     except (BinanceAPIError, BinanceRequestError) as exc:
         # Log details to file (INFO) and show a short failure line on console
         logger.info("Order placement failed: %s", exc)
-        print(f"Failure: {exc}")
+        print(f"FAILED! : {exc}")
         return 1
 
     # Show the immediate response fields returned by Binance.
@@ -127,7 +127,7 @@ def run(argv: Sequence[str] | None = None) -> int:
     print(f"  status: {response.status}")
     print(f"  executedQty: {response.executed_qty}")
     print(f"  avgPrice: {response.avg_price}")
-    print("Success: order submitted to Binance Futures Testnet.")
+    print("SUCCESS! : order submitted to Binance Futures Testnet.")
     return 0
 
 
