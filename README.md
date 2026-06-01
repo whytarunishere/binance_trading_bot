@@ -167,26 +167,6 @@ The bot assumes trading on **USDT-Margined perpetual futures pairs**, such as:
 * `BTCUSDT`
 * `ETHUSDT`
 
-### Time In Force
-
-All **Limit Orders** default to:
-
-```text
-GTC (Good Till Cancelled)
-```
-
-### Execution Timing
-
-The bot uses:
-
-```text
-newOrderRespType=RESULT
-```
-
-This ensures the API response contains the **actual filled price** and **executed quantity** for Market orders instead of the default `ACK` response.
-
----
-
 ## 🔒 Security Best Practices
 
 Before pushing your repository to GitHub:
@@ -213,17 +193,4 @@ contains successful **Market** and **Limit order traces**.
 
 ---
 
-## 📌 Final Notes
-
-This project demonstrates:
-
-* Modular software architecture
-* Separation of concerns (SoC)
-* Secure credential handling
-* Manual HMAC request signing
-* Precision-safe financial calculations
-* Clean CLI design
-* Structured logging and error handling
-
-Designed specifically for **Binance Futures Testnet trading workflows** while maintaining production-grade engineering practices.
 
