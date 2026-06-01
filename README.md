@@ -1,4 +1,3 @@
-=======
 # Binance Futures Testnet Trading Bot
 
 A robust, modular Command Line Interface (CLI) application for placing Market and Limit orders on the Binance Futures Testnet (USDT-M).
