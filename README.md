@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 =======
 # Binance Futures Testnet Trading Bot
 
